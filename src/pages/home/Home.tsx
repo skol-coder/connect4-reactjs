@@ -1,5 +1,4 @@
 import { useNavigate } from "react-router-dom";
-import Connect_4 from '../game/Connect_4';
 import './Home.css';
 import HomePlayerCard from "../../components/HomePlayerCard";
 import Button from '../../components/Button'
