@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { BrowserRouter, Routes, Route} from "react-router-dom";
-import Connect_4 from './pages/game/Connect_4';
+import Connect4 from './pages/game/Connect_4';
 import Home from './pages/home/Home';
 
 let img1 = require('./img/male.png');
@@ -33,7 +33,7 @@ function App() {
                                         setGameNumber={setGameNumber}
                                     />} 
             />
-          <Route path="/Connect_4" element={<Connect_4 
+          <Route path="/Connect_4" element={<Connect4 
                                                 player1Img={player1Picture} 
                                                 player2Img={player2Picture} 
                                                 player1={player1} 
